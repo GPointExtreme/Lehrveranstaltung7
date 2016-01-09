@@ -8,6 +8,9 @@ public class RecursiveDemo {
 		
 		result = RecursiveMath.sum(3);
 		System.out.println(result);
+		
+		result = RecursiveMath.fib(10);
+		System.out.println(result);
 
 	}
 
