@@ -23,10 +23,10 @@ public class Palindrome {
 			return  false;
 		}
 		if(!Character.isLetter(first)) {
-			return checkPalindrome(pal.substring(0));
+			return checkPalindrome(pal.substring(1, pal.length()));
 		}
 		if(!Character.isLetter(last)) {
-			return checkPalindrome(pal.substring(pal.length()-1));
+			return checkPalindrome(pal.substring(0, pal.length()-1));
 		}
 		return  false;
 	}
